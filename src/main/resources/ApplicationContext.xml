@@ -1,0 +1,81 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="spel"
+          class="org.java.syntrapxl.Spel">
+    </bean>
+
+    <bean id="ship1"
+          class="org.java.syntrapxl.Schip">
+        <constructor-arg name="x" value="10"/>
+        <constructor-arg name="y" value="10"/>
+        <constructor-arg name="alliantie" value="NOORD"/>
+        <constructor-arg name="levenspunten" value="90"/>
+        <constructor-arg name="snelheid" value="5"/>
+    </bean>
+    <bean id="ship2"
+          class="org.java.syntrapxl.Schip">
+        <constructor-arg name="x" value="30"/>
+        <constructor-arg name="y" value="30"/>
+        <constructor-arg name="alliantie" value="ZUID"/>
+        <constructor-arg name="levenspunten" value="90"/>
+        <constructor-arg name="snelheid" value="10"/>
+    </bean>
+    <bean id="ship3"
+          class="org.java.syntrapxl.Schip">
+        <constructor-arg name="x" value="80"/>
+        <constructor-arg name="y" value="80"/>
+        <constructor-arg name="alliantie" value="NOORD"/>
+        <constructor-arg name="levenspunten" value="90"/>
+        <constructor-arg name="snelheid" value="8"/>
+    </bean>
+    <bean id="ship4"
+          class="org.java.syntrapxl.Schip">
+        <constructor-arg name="x" value="70"/>
+        <constructor-arg name="y" value="50"/>
+        <constructor-arg name="alliantie" value="ZUID"/>
+        <constructor-arg name="levenspunten" value="90"/>
+        <constructor-arg name="snelheid" value="5"/>
+    </bean>
+
+    <bean id="boei1"
+          class="org.java.syntrapxl.GewapendeBoei">
+        <constructor-arg name="x" value="20"/>
+        <constructor-arg name="y" value="20"/>
+        <constructor-arg name="alliantie" value="NOORD"/>
+        <constructor-arg name="levenspunten" value="40"/>
+        <constructor-arg name="bereik" value="30"/>
+        <constructor-arg name="schade" value="30"/>
+    </bean>
+    <bean id="boei2"
+          class="org.java.syntrapxl.GewapendeBoei">
+        <constructor-arg name="x" value="75"/>
+        <constructor-arg name="y" value="30"/>
+        <constructor-arg name="alliantie" value="ZUID"/>
+        <constructor-arg name="levenspunten" value="40"/>
+        <constructor-arg name="bereik" value="30"/>
+        <constructor-arg name="schade" value="30"/>
+    </bean>
+    <bean id="boei3"
+          class="org.java.syntrapxl.GewapendeBoei">
+        <constructor-arg name="x" value="60"/>
+        <constructor-arg name="y" value="80"/>
+        <constructor-arg name="alliantie" value="ZUID"/>
+        <constructor-arg name="levenspunten" value="40"/>
+        <constructor-arg name="bereik" value="30"/>
+        <constructor-arg name="schade" value="30"/>
+    </bean>
+    <bean id="boei4"
+          class="org.java.syntrapxl.GewapendeBoei">
+        <constructor-arg name="x" value="5"/>
+        <constructor-arg name="y" value="90"/>
+        <constructor-arg name="alliantie" value="ZUID"/>
+        <constructor-arg name="levenspunten" value="40"/>
+        <constructor-arg name="bereik" value="30"/>
+        <constructor-arg name="schade" value="30"/>
+    </bean>
+
+</beans>
