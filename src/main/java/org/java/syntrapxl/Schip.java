@@ -3,12 +3,13 @@ package org.java.syntrapxl;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Schip extends ZeeObject implements Beweegbaar {
-
+public class Schip extends ZeeObject implements Beweegbaar
+{
     private int snelheid;
     private ZeeObject zeeObject;
 
-    public Schip(int x, int y, Alliantie alliantie, int levenspunten, int snelheid) {
+    public Schip(int x, int y, Alliantie alliantie, int levenspunten, int snelheid)
+    {
         super(x, y, alliantie, levenspunten);
         this.snelheid = snelheid;
     }

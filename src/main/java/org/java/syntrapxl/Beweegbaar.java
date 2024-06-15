@@ -1,6 +1,7 @@
 package org.java.syntrapxl;
 
 
-public interface Beweegbaar {
+public interface Beweegbaar
+{
     void beweegNaar(Punt punt);
 }

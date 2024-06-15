@@ -3,6 +3,7 @@ package org.java.syntrapxl;
 import org.springframework.stereotype.Component;
 
 @Component
-public enum Alliantie {
+public enum Alliantie
+{
     NOORD, ZUID
 }

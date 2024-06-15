@@ -3,12 +3,13 @@ package org.java.syntrapxl;
 import org.springframework.stereotype.Component;
 
 @Component
-public class GewapendeBoei extends ZeeObject {
-
+public class GewapendeBoei extends ZeeObject
+{
     private int bereik;
     private int schade;
 
-    public GewapendeBoei(int x, int y, Alliantie alliantie, int levenspunten, int bereik, int schade) {
+    public GewapendeBoei(int x, int y, Alliantie alliantie, int levenspunten, int bereik, int schade)
+    {
         super(x, y, alliantie, levenspunten);
         this.bereik = bereik;
         this.schade = schade;

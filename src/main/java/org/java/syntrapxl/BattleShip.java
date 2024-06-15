@@ -9,8 +9,8 @@ import java.util.Random;
 
 public class BattleShip {
     private static ApplicationContext context;
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
 
         Spel spel = (Spel) context.getBean("spel");
@@ -49,10 +49,8 @@ public class BattleShip {
 
                 spel.beweegZeeObject(randomIndex,randomPunt);
             }
-
             spel.vuur();
             spel.printStatus();
-
         }
 
         //System.out.println(schip1.toString());

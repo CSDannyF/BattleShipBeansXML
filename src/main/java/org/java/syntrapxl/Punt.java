@@ -3,8 +3,8 @@ package org.java.syntrapxl;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Punt {
-
+public class Punt
+{
     private int x;
     private int y;
     public static final int MAXIMUMGROOTTE = 99;
@@ -42,20 +42,24 @@ public class Punt {
         }
     }
 
-    public int getX() {
+    public int getX()
+    {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(int x)
+    {
         this.x = x;
         controleer();
     }
 
-    public int getY() {
+    public int getY()
+    {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(int y)
+    {
         this.y = y;
         controleer();
     }
